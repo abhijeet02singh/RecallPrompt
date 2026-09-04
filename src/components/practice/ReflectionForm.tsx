@@ -100,7 +100,7 @@ export const ReflectionForm: React.FC<ReflectionFormProps> = ({
         </div>
 
         {/* 5 Retro Numbered Blocks */}
-        <div className="grid grid-cols-5 gap-2 sm:gap-4 py-2">
+        <div className="grid grid-cols-5 sm:grid-cols-5 gap-2 sm:gap-4 py-2">
           {[1, 2, 3, 4, 5].map((num) => (
             <button
               type="button"

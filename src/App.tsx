@@ -151,7 +151,7 @@ export default function App() {
       />
 
       {/* Main Content Arena - Vintage Slide-Deck max-w-4xl */}
-      <main className="flex-1 w-full max-w-4xl mx-auto px-3.5 sm:px-6 py-6 sm:py-10 md:py-12">
+      <main className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 md:py-12">
         {currentView === "home" && (
           <ModeSelector onSelectMode={handleSelectMode} />
         )}

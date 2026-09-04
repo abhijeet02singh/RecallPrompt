@@ -88,7 +88,7 @@ export const ModeSelector: React.FC<ModeSelectorProps> = ({ onSelectMode }) => {
           </span>
         </div>
 
-        <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-[#1C1917] dark:text-[#FAF6ED] leading-[0.95] uppercase tracking-wide my-3 break-words">
+        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-[#1C1917] dark:text-[#FAF6ED] leading-[0.95] uppercase tracking-wide my-3 break-words">
           Master Any Topic<br />
           Through Recall.
         </h1>
