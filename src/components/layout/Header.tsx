@@ -86,7 +86,7 @@ export const Header: React.FC<HeaderProps> = ({
               RecallPrompt
             </span>
             <span className="font-script text-xs sm:text-sm text-[#B91C4A] dark:text-[#E11D48] -rotate-3 select-none font-bold">
-              scrapbook
+              Abhi
             </span>
           </button>
         </div>

@@ -2,39 +2,228 @@ import { Topic } from "../../types";
 
 export const engineeringTopics: Topic[] = [
   // Frontend Development
+
+  // HTML & CSS
+
+{ id: "fe-1", title: "What is semantic HTML?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-2", title: "What is the difference between a div and a section?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-3", title: "What is web accessibility?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-4", title: "What is the difference between display: none and visibility: hidden?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-5", title: "What is CSS specificity and how does it work?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-6", title: "What is the difference between relative, absolute, fixed, and sticky positioning?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-7", title: "How do you make a website mobile responsive?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-8", title: "What are CSS media queries?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-9", title: "What is mobile-first design?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-10", title: "What is the difference between px, rem, em, percentage, vh, and vw units?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-11", title: "What is the difference between Flexbox and CSS Grid?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-12", title: "How do you handle different screen sizes in responsive web design?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// JavaScript
+
+{ id: "fe-13", title: "What is the difference between var, let, and const?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-14", title: "What is a closure in JavaScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-15", title: "What is hoisting in JavaScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-16", title: "What is the difference between == and === in JavaScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-17", title: "What is the JavaScript event loop?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-18", title: "What are Promises in JavaScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-19", title: "What is the difference between synchronous and asynchronous code?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-20", title: "What is async and await in JavaScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-21", title: "What is event bubbling in JavaScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-22", title: "What is event delegation and why is it useful?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-23", title: "What is the difference between map, filter, and reduce?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// React Fundamentals
+
+{ id: "fe-24", title: "What is React and why is it used?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-25", title: "What is a React component?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-26", title: "What is the difference between functional and class components in React?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-27", title: "What are props in React?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-28", title: "What is state in React?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-29", title: "What is the difference between props and state in React?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// React Hooks
+
+{ id: "fe-30", title: "What is the useState hook and how does it work?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-31", title: "What is the useEffect hook and when should you use it?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-32", title: "What is the useRef hook and when should you use it?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-33", title: "What is useMemo and how does it improve performance?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-34", title: "What is useCallback and when should you use it?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// Advanced React Concepts
+
+{ id: "fe-35", title: "What causes unnecessary re-renders in React?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-36", title: "How do you optimize the performance of a React application?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-37", title: "What is React.memo and how does it prevent unnecessary re-renders?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-38", title: "What is code splitting in React?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-39", title: "What is lazy loading in React?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-40", title: "What is the React component lifecycle?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-41", title: "How does React rendering and re-rendering work?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// TypeScript
+
+{ id: "fe-42", title: "What is TypeScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-43", title: "Why use TypeScript instead of JavaScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-44", title: "What is an interface in TypeScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-45", title: "What is the difference between an interface and a type in TypeScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-46", title: "What is the any type in TypeScript and why should it be avoided?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-47", title: "What are generics in TypeScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-48", title: "What is type inference in TypeScript?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// APIs
+
+{ id: "fe-49", title: "What is an API?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-50", title: "What is REST API architecture?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-51", title: "What is the difference between GET and POST requests?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-52", title: "What is the difference between PUT and PATCH requests?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-53", title: "What are HTTP status codes and what do common codes mean?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-54", title: "How do you handle API errors in a frontend application?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-55", title: "How do you securely handle API keys in a frontend application?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// Browser & Web Fundamentals
+
+{ id: "fe-56", title: "What happens when you enter a URL into a browser?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-57", title: "What is DNS and how does it work?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-58", title: "What is HTTPS and why is it important?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-59", title: "What is CORS and why does it exist?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-60", title: "What is browser caching and how does it work?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-61", title: "What is the difference between cookies, localStorage, and sessionStorage?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-62", title: "What is the DOM?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-63", title: "What is the Virtual DOM and how does React use it?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// Git & Deployment
+
+{ id: "fe-64", title: "What is Git?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-65", title: "What is the difference between Git and GitHub?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-66", title: "What is a Git branch and why is it used?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-67", title: "What is a pull request?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-68", title: "What is a merge conflict and how do you resolve it?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-69", title: "What is CI/CD?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-70", title: "How do you deploy a frontend application to production?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+
+// Project-Based Interview Questions
+
+{ id: "fe-71", title: "Explain your RecallPrompt project.", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-72", title: "Why did you decide to build RecallPrompt?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-73", title: "What problem does RecallPrompt solve?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-74", title: "What was the biggest technical challenge you faced while building RecallPrompt?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-75", title: "How did you solve the technical problems you faced while building RecallPrompt?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-76", title: "How is user data stored and managed in RecallPrompt?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-77", title: "Why did you choose localStorage instead of a database for RecallPrompt?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-78", title: "How is state managed in your RecallPrompt application?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-79", title: "How did you make RecallPrompt responsive across mobile, tablet, and desktop devices?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+
+{ id: "fe-80", title: "How did you deploy RecallPrompt to production?", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
   { id: "fe-1", title: "React Reconciliation & Fiber Architecture", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
-  { id: "fe-2", title: "Virtual DOM vs Direct DOM Manipulation", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+  { id: "fe-2", title: "Virtual DOM vs Direct DOM Manipulation", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-3", title: "Browser Rendering Pipeline (Parse, Layout, Paint, Composite)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-4", title: "Hydration & Island Architecture", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Advanced" },
   { id: "fe-5", title: "React Server Components (RSC) vs SSR", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Advanced" },
-  { id: "fe-6", title: "Client-Side vs Server-Side vs Static Site Generation", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+  { id: "fe-6", title: "Client-Side vs Server-Side vs Static Site Generation", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-7", title: "Incremental Static Regeneration (ISR)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-8", title: "Code Splitting & Dynamic Imports", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-9", title: "Core Web Vitals (LCP, INP, CLS)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
-  { id: "fe-10", title: "CSS Cascading & Stacking Context", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+  { id: "fe-10", title: "CSS Cascading & Stacking Context", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-11", title: "Event Loop, Microtasks & Macrotasks", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-12", title: "Web Workers & Off-Main-Thread Processing", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Advanced" },
   { id: "fe-13", title: "State Management Paradigms (Flux vs Signals vs Atoms)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Advanced" },
-  { id: "fe-14", title: "Web Accessibility (WCAG & ARIA Semantics)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+  { id: "fe-14", title: "Web Accessibility (WCAG & ARIA Semantics)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-15", title: "Progressive Web Apps & Service Worker Caching Strategies", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
-  { id: "fe-16", title: "HTML Semantic Elements & Why They Matter", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-17", title: "CSS Box Model (Content, Padding, Border, Margin)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+  { id: "fe-16", title: "HTML Semantic Elements & Why They Matter", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-17", title: "CSS Box Model (Content, Padding, Border, Margin)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-18", title: "Flexbox vs CSS Grid", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-19", title: "CSS Specificity & Selector Priority", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-20", title: "Responsive Web Design & Media Queries", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-21", title: "DOM Tree & How JavaScript Interacts With the Page", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-22", title: "Event Bubbling vs Event Capturing", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-23", title: "Promises vs Async/Await", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-24", title: "HTTP Request Methods (GET, POST, PUT, PATCH, DELETE)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-25", title: "HTTP Status Codes Every Frontend Developer Should Know", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-26", title: "Cookies vs LocalStorage vs SessionStorage", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-27", title: "REST APIs & How Frontend Applications Consume Them", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-28", title: "React Components, Props & State", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-29", title: "React Hooks Fundamentals", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-30", title: "Controlled vs Uncontrolled Components", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-31", title: "Forms & Form Validation in React", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-32", title: "Client-Side Routing & Single Page Applications", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
-  { id: "fe-33", title: "Git Basics & Version Control for Frontend Developers", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Beginner" },
+  { id: "fe-19", title: "CSS Specificity & Selector Priority", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-20", title: "Responsive Web Design & Media Queries", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-21", title: "DOM Tree & How JavaScript Interacts With the Page", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-22", title: "Event Bubbling vs Event Capturing", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-23", title: "Promises vs Async/Await", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-24", title: "HTTP Request Methods (GET, POST, PUT, PATCH, DELETE)", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-25", title: "HTTP Status Codes Every Frontend Developer Should Know", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-26", title: "Cookies vs LocalStorage vs SessionStorage", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-27", title: "REST APIs & How Frontend Applications Consume Them", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-28", title: "React Components, Props & State", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-29", title: "React Hooks Fundamentals", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-30", title: "Controlled vs Uncontrolled Components", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-31", title: "Forms & Form Validation in React", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-32", title: "Client-Side Routing & Single Page Applications", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
+  { id: "fe-33", title: "Git Basics & Version Control for Frontend Developers", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-34", title: "JavaScript Closures & Lexical Scope", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-35", title: "JavaScript Hoisting & Temporal Dead Zone", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
   { id: "fe-36", title: "Debouncing vs Throttling", category: "Engineering & Technology", subcategory: "Frontend Development", difficulty: "Intermediate" },
