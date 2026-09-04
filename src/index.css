@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --font-display: "Bebas Neue", "Syne", "Impact", "Arial Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-script: "Caveat", "Comic Sans MS", "Chalkboard SE", "Brush Script MT", cursive;
+  --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", Monaco, Inconsolata, "Fira Code", "Droid Sans Mono", "Source Code Pro", ui-monospace, monospace;
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
@@ -12,10 +19,10 @@
     --accent-mustard: #EBB140;
     --muted-slate: #78716C;
 
-    --font-display: "Bebas Neue", "Syne", "Impact", "Arial Black", sans-serif;
-    --font-script: "Caveat", "Comic Sans MS", "Chalkboard SE", cursive;
-    --font-body: "Plus Jakarta Sans", -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-    --font-mono: "SF Mono", "Monaco", "Inconsolata", "Fira Code", "Droid Sans Mono", "Source Code Pro", monospace;
+    --font-display: "Bebas Neue", "Syne", "Impact", "Arial Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-script: "Caveat", "Comic Sans MS", "Chalkboard SE", "Brush Script MT", cursive;
+    --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-mono: "SF Mono", Monaco, Inconsolata, "Fira Code", "Droid Sans Mono", "Source Code Pro", ui-monospace, monospace;
   }
 
   .dark {
