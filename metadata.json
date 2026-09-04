@@ -1,0 +1,6 @@
+{
+  "name": "RecallPrompt",
+  "description": "Understand. Remove support. Explain. A minimalist knowledge-practice tool to test and refine your understanding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

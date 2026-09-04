@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --bg-parchment: #F8F4EA;
+    --bg-card: #FAF6ED;
+    --ink-charcoal: #1C1917;
+    --accent-crimson: #B91C4A;
+    --accent-teal: #1E5F64;
+    --accent-mustard: #EBB140;
+    --muted-slate: #78716C;
+
+    --font-display: "Bebas Neue", "Syne", sans-serif;
+    --font-script: "Caveat", cursive;
+    --font-body: "Plus Jakarta Sans", -apple-system, sans-serif;
+  }
+
+  .dark {
+    --bg-parchment: #181715;
+    --bg-card: #22201D;
+    --ink-charcoal: #FAF6ED;
+    --accent-crimson: #E11D48;
+    --accent-teal: #2DD4BF;
+    --accent-mustard: #FBBF24;
+    --muted-slate: #A8A29E;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--bg-parchment);
+    color: var(--ink-charcoal);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Typography utilities */
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.04em;
+  }
+
+  .font-script {
+    font-family: var(--font-script);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  /* Paper texture */
+  .paper-texture {
+    background-color: #F8F4EA;
+    background-image: radial-gradient(#d5cebe 0.9px, transparent 0.9px);
+    background-size: 16px 16px;
+  }
+
+  .dark .paper-texture {
+    background-color: #181715;
+    background-image: radial-gradient(#33302B 0.9px, transparent 0.9px);
+    background-size: 16px 16px;
+  }
+
+  /* Hard Retro Shadows */
+  .shadow-retro-sm {
+    box-shadow: 2px 2px 0px #000000;
+  }
+  .dark .shadow-retro-sm {
+    box-shadow: 2px 2px 0px #000000;
+  }
+
+  .shadow-retro {
+    box-shadow: 4px 4px 0px #000000;
+  }
+  .dark .shadow-retro {
+    box-shadow: 4px 4px 0px #000000;
+  }
+
+  .shadow-retro-lg {
+    box-shadow: 6px 6px 0px #000000;
+  }
+  .dark .shadow-retro-lg {
+    box-shadow: 6px 6px 0px #000000;
+  }
+
+  .shadow-retro-xl {
+    box-shadow: 8px 8px 0px #000000;
+  }
+  .dark .shadow-retro-xl {
+    box-shadow: 8px 8px 0px #000000;
+  }
+
+  /* Interactive Button Micro-state */
+  .btn-retro {
+    border: 2.5px solid #1C1917;
+    box-shadow: 4px 4px 0px #000000;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+  }
+  .btn-retro:hover:not(:disabled) {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px #000000;
+  }
+  .btn-retro:active:not(:disabled) {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #000000;
+  }
+
+  .dark .btn-retro {
+    border-color: #FAF6ED;
+    box-shadow: 4px 4px 0px #000000;
+  }
+  .dark .btn-retro:hover:not(:disabled) {
+    box-shadow: 6px 6px 0px #000000;
+  }
+  .dark .btn-retro:active:not(:disabled) {
+    box-shadow: 2px 2px 0px #000000;
+  }
+
+  /* Metallic Paperclip Wire */
+  .paperclip {
+    position: relative;
+  }
+  .paperclip::before {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 28px;
+    width: 14px;
+    height: 38px;
+    border: 3px solid #78716C;
+    border-radius: 12px;
+    transform: rotate(-10deg);
+    z-index: 20;
+    pointer-events: none;
+    box-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+  }
+
+  .paperclip-right::before {
+    left: auto;
+    right: 28px;
+    transform: rotate(12deg);
+  }
+
+  /* Masking tape strip */
+  .tape-strip {
+    position: relative;
+  }
+  .tape-strip::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-1.5deg);
+    width: 80px;
+    height: 22px;
+    background: rgba(235, 177, 64, 0.45);
+    border-left: 2px dashed rgba(28, 25, 23, 0.2);
+    border-right: 2px dashed rgba(28, 25, 23, 0.2);
+    z-index: 25;
+    pointer-events: none;
+  }
+
+  /* Cursive accent annotation */
+  .cursive-accent {
+    font-family: var(--font-script);
+    color: #B91C4A;
+    transform: rotate(-3deg);
+    display: inline-block;
+  }
+  .dark .cursive-accent {
+    color: #F43F5E;
+  }
+
+  /* Tabular numbers */
+  .font-tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+
