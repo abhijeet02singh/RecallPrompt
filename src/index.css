@@ -12,9 +12,10 @@
     --accent-mustard: #EBB140;
     --muted-slate: #78716C;
 
-    --font-display: "Bebas Neue", "Syne", sans-serif;
-    --font-script: "Caveat", cursive;
-    --font-body: "Plus Jakarta Sans", -apple-system, sans-serif;
+    --font-display: "Bebas Neue", "Syne", "Impact", "Arial Black", sans-serif;
+    --font-script: "Caveat", "Comic Sans MS", "Chalkboard SE", cursive;
+    --font-body: "Plus Jakarta Sans", -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    --font-mono: "SF Mono", "Monaco", "Inconsolata", "Fira Code", "Droid Sans Mono", "Source Code Pro", monospace;
   }
 
   .dark {
@@ -46,6 +47,10 @@
 
   .font-body {
     font-family: var(--font-body);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
   }
 
   /* Paper texture */
